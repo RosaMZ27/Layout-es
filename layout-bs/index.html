@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body> 
+    
+    <div class="container">
+        
+        <div class="row">
+            <div class="border border-4 col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Menú</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                          <a class="nav-link" href="#">Fuentes</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Contacto
+                          </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Número teléfonico.</a></li>
+                              <li><a class="dropdown-item" href="#">Locales.</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Nuestras redes.</a></li>
+                            </ul>
+                              </li>
+                              <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ofertas</a>
+                              </li>
+                            </ul>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                              <button class="btn btn-outline-success" type="submit">Buscar</button>
+                          </form>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>   
+
+        
+    <div class="row">
+        <div class="border border-4 col">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.guiahardware.es/wp-content/uploads/2017/09/configuracion-pc-gaming.jpg" class="d-block w-100" width="250" height="450" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://i.blogs.es/ba8545/pcheap/1024_2000.jpg" class="d-block w-100" width="250" height="450" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://www.xanxogaming.com/wp-content/uploads/2019/12/PC-Gamer-Gama-Alta-Peru-Banner.jpg" class="d-block w-100" width="250" height="450" alt="...">
+                    </div>
+                </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="border border-8 col">  
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Mejores componentes para un PC Gamer 2021.
+                              </button>
+                          </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                               <strong>-</strong> Seguramente te estés planteando comprar tu PC Gamer en este 2021, ya que la salida de las consolas de nueva generación han reducido los precios de las tarjetas gráficas. Y es posible que sea la primera vez que mires un ordenador o PC como alternativa a las actuales consolas PS5 o Xbox Series X. Sin duda es el mejor momento para comprar tu PC Gamer, por ello hoy te mostraremos los mejores componentes para un PC Gamer en 2021.
+                            <br>
+                            <br>
+                               Para comprar un pc gaming olvidaros de ordenadores  <code>.pre-esamblados, </code>siendo sincero no son la mejor opción y a los pocos años te darás cuenta de que no fue una buena compra. Somos conscientes de que en Internet existen muchas reviews de este tipo de ordenadores gamer, y en muchas los ponen por las nubes pero la realidad es muy distinta, la mejor opción es montar un PC gaming por componentes.
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div
+                         class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Comprar componentes de calidad
+                                </button>
+                              </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Por favor, evitar comprar componentes usados o de china, este tipo de componentes van a reducir notablemente el rendimiento de tu PC Gamer e incluso producir averías en otros componentes del ordenador. Os pongo ejemplos personales:
+                                <br>
+                                <br>
+                              <li>En mi trabajo se cambian muchas fuentes de alimentación al mes, pues bien decidimos probar unas fuentes de alimentación chinas que por especificaciones eran similares a las que utilizábamos normalmente, pero mucho mas baratas. En menos de un año, todas averiadas y en dos de los PCs la placa base para tirar.</li>
+                              <li>Mi hermano compro una tarjeta gráfica usada, de segunda mano, a los dos meses los ventiladores dejaron de funcionar.
+                                  En resumen, todo lo barato o de dudosa calidad acaba saliendo caro. Por esta razón no quiero que cometas estos errores, nosotros te queremos guiar para que puedas montar tu PC Gaming fácilmente, sin riesgos y para que te dure muchos años.</li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  PC relación Calidad Precio
+                                </button>
+                              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Llegamos al punto económico, tenemos que tener claro cuanto queremos gastarnos. Es evidente que cuanto mas dinero nos gastemos mejores componentes tendremos, sobretodo en el aspecto gráfico. Tomarlo como una inversión a largo plazo.
+                            <br>
+                            <br>
+                              Pero tranquilo, existen componentes baratos y de calidad, que nos brindan la posibilidad de montar un Pc gamer con la mejor relación calidad precio. Necesitamos componentes o hardware equilibrado y certificado para nuestro ordenador, pero siempre teniendo en cuenta el presupuesto. <code>Algunos ejemplos son:</code>
+                            <br>
+                            <br>
+                              <li>Elije placas base de marcas reconocidas como Gigabyte o Asus y si incluyen componentes ultra-durable nos durarán más años aun.</li>
+                              <li>Invierte siempre mas en Procesador, placa base y tarjeta gráfica. El resto de componentes, como el disco duro, la memoria RAM o la fuente de alimentación, son muy fáciles de actualizar con los años.</li>
+                </div>
+              </div>
+            </div>
+        <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Componentes
+                        </button>
+                      </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Un ordenador es una máquina formada por diferentes componentes que funcionan en armonía. Deben ser compatibles entre sí para que no se produzcan errores, lo que significa que elegir un determinado <code>.componente</code> influye en el resto. 
+                      <br>
+                      <br>
+                        <li>CPU Procesador.</li>
+                        <li>Tarjeta Gráfica.</li>
+                        <li>Memoria RAM</li>
+                        <li>Almacenamiento Disco Duro o Disco SSD.</li>
+                        <li>Placa base.</li>
+                  </div>
+              </div>
+        </div>
+                    
+        <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Cuánto cuesta armar una PC Gamer en 2021?
+                        </button>
+                      </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <strong>-</strong> Todos los amantes a los videojuegos tienen las ganas o la idea de alguna vez entrar a la famosa y criticada <code>.‘Master Race’</code>porque se entera que Steam es muy barato o que Epic Games regala juegos todas las semanas. Sin embargo, dar un paso tan importante genera una pregunta, ¿cuánto cuesta armar una PC Gamer en 2021?
+                      <br>
+                      <br>
+                        <p>Bueno, en esta ocasión te vamos a decir lo que podrías llegar a gastar a la hora de entrarle a la famosa Master Race. Para que todo sea mucho más claro, te vamos a exponer tres escenarios distintos; gama baja, gama media y gama alta. De esa forma vas a saber cuánto cuesta armar una PC Gamer en el 2021.
+                      <br>
+                        <li>Procesador: Ryzen 5 3600X – 5,700 MXN</li>
+                        <li>Tarjeta madre: B450 Aorus M – 2,100 MXN</li>
+                        <li>DDR4 8GB a 3000 MHz – 650 MXN</li>
+                        <li>Disco duro de estado sólido de 480 GB – 900 MXN</li>
+                        <li>Fuente de poder 500 W RGB 80 Plus Bronce Cyclon – 1,100 MXN</li>
+                        <li>Gabinete Cyclon RGB – 990 MXN</li>
+                        <li>NVIDIA GeForce GTX 1050ti 4GB – 3,500 MXN (compra aquí)</li>
+                        <li>Total – 14,940 MXN</li>
+                        <li>Ojos, todos los precios son aproximados y están en MXN (pesos mexicanos).</li>
+                      <br>
+                          
+                        </p> 
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Guía para Armar un PC Gamer 2021
+                        </button>
+                      </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <strong>-</strong>Aquí tienes las mejores configuraciones de ordenador gaming de este 2021!, en donde podrás decantarte por una de nuestras configuraciones que recomendamos o siempre puedes ir directo al configurador de <code>.Aussar, PcComponentes o Coolmod</code> y hacer uno a tu gusto.
+                      <br>
+                      <br>
+                          Recordamos que:
+                      <br>
+                      <br>
+                          No necesitas sí o sí un i7 para jugar.
+                      <br>
+                      <br>
+                          Mayor cantidad de memoria de vídeo VRAM y memoria RAM no implica un mejor rendimiento.
+                      <br>
+                      <br>
+                          En un ordenador gaming la tarjeta gráfica o GPU es el componente más importante y por lo tanto el que se lleva la mayor inversión por encima del procesador o CPU.
+                      <br>
+                      <br>
+                          Quiero gastarme lo mínimo para jugar en ultra…ya…y yo quiero una casa de verano en Grecia.
+                      <br>
+                      <br>
+                          Los milagros no existen, pero tras muchos cambios aquí tenemos lo que para nosotros es, la mejor configuración para los que se quieren gastar lo mínimo y jugar a una calidad decente, mi consejo es que ahorres hasta 500€ para tener una experiencia duradera y sin tirones cinematográficos pero si no es posible esta configuración se apaña bastante bien para lo que cuesta.
+                      <br>
+                      <br>
+                          PC gamer ultra económico de 300€ de calidad, bien equilibrado y con potencia suficiente para mover la mayoría de títulos en calidad media o media-alta, a 720p de resolución, sin filtros o lo mínimo posible y con una más que suficiente tasa de fps.
+                      <br>
+                      <br>
+                          Características clave:
+                      <br>
+                      <br>
+                        <li>CPU: AMD Athlon 220GE 3.4 Ghz</li>
+                        <li>GPU: AMD Radeon Vega 3 (Integrada en el proce)</li>
+                        <li>RAM: 8GB</li>
+                        <li>Con el montaje y testeo (todas las configs lo llevan incluido) va incluida actualización y optimización de BIOS así como los correspondientes benchmarks.</li>
+                </div>
+            </div>
+        </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+
+        <div class="border border-2 col">
+            <div class="card" style="width: 18rem;">
+                    <img src="https://i.ytimg.com/vi/gC7u6RgSvsA/maxresdefault.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">¡HOY te consentimos en McDonald’s!</h5>
+                      <p class="card-text">Acércate a tu restaurante favorito, presenta el gafete de donde laboras  y obtén dos menús Cuarto de Libra + papa grande Q50.</p>
+                      <a href="#" class="btn btn-primary">Seguir Link</a>
+              </div>
+            </div>
+        
+            <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/736x/32/bb/a3/32bba37a22eb97daf1d301dcfeec952b.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Cinepolis</h5>
+                      <p class="card-text">Paga con tu Cinecash y llevate el 50% de descuento un refresco de 18oz y una canasta grande de palomitas de mantequilla.</p>
+                      <a href="#" class="btn btn-primary">Seguir Link</a>
+              </div>
+            </div>
+                  
+            <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/38/38/06/38380672714e0125278d691a1c7ef50f.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Meomo</h5>
+                      <p class="card-text">Garantía y calidad asegurada solo para ti en todos los productos.</p>
+                      <a href="#" class="btn btn-primary">Seguir Link</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="border border-4 col">
+            <iframe width="1325" height="500" src="https://www.youtube.com/embed/mHPpYnDq6ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
